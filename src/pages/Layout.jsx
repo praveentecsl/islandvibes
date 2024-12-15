@@ -1,6 +1,6 @@
 import React from 'react'
 
-const App = () => {
+const Layout = () => {
   return (
     <div>
       
@@ -8,5 +8,4 @@ const App = () => {
   )
 }
 
-export default App
-
+export default Layout
