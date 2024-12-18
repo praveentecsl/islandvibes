@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BlogsDetail = () => {
+const Footer = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const BlogsDetail = () => {
   )
 }
 
-export default BlogsDetail
+export default Footer
