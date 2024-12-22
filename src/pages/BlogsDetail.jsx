@@ -1,11 +1,9 @@
 import React from 'react'
 
 const BlogsDetail = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <div>BlogsDetail</div>
+  
+    
 }
 
 export default BlogsDetail
