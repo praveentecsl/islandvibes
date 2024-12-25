@@ -2,6 +2,8 @@ import React from 'react'
 import Mainvid from '../assets/video/Ho.mp4'
 import Hero from '../components/Hero/Hero'
 import Places from '../components/Places/Places'
+import BannerImg from '../components/BannerImg/BannerImg'
+import PictureBanner from '../assets/banner.jpg'
 
 
 const Home = () => {
@@ -21,6 +23,7 @@ const Home = () => {
           <Hero/>
         </div>
         <Places/>
+        <BannerImg img={PictureBanner}/>
       </div>
       
     </>
