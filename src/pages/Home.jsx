@@ -1,5 +1,7 @@
 import React from 'react'
 import Mainvid from '../assets/video/Ho.mp4'
+import Hero from '../components/Hero/Hero'
+import Places from '../components/Places/Places'
 
 
 const Home = () => {
@@ -16,7 +18,9 @@ const Home = () => {
             <source src= {Mainvid} 
             type='video/mp4'/>
           </video>
+          <Hero/>
         </div>
+        <Places/>
       </div>
       
     </>
