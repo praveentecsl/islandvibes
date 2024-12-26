@@ -4,6 +4,7 @@ import Hero from '../components/Hero/Hero'
 import Places from '../components/Places/Places'
 import BannerImg from '../components/BannerImg/BannerImg'
 import PictureBanner from '../assets/banner.jpg'
+import Blogs from './Blogs'
 
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
         </div>
         <Places/>
         <BannerImg img={PictureBanner}/>
+        <Blogs />
       </div>
       
     </>
