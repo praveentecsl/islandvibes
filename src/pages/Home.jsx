@@ -5,6 +5,8 @@ import Places from '../components/Places/Places'
 import BannerImg from '../components/BannerImg/BannerImg'
 import PictureBanner from '../assets/banner.jpg'
 import Blogs from './Blogs'
+import Banner from '../components/Banner/Banner'
+import Testimonial from '../components/Testimonial/Testimonial'
 
 
 const Home = () => {
@@ -26,6 +28,9 @@ const Home = () => {
         <Places/>
         <BannerImg img={PictureBanner}/>
         <Blogs />
+        <Banner />
+        <BannerImg img={PictureBanner} />
+        <Testimonial />
       </div>
       
     </>
