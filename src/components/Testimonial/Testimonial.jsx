@@ -84,7 +84,7 @@ const Testimonial = () => {
             data-aos-duration="300"
             className="grid grid-cols-1 max-w-[800px] mx-auto gap-6"
           >
-            <Slider {...settings}>
+              <Slider {...settings}>
               {testimonialData.map(({ id, name, text, img }) => {
                 return (
                   <div key={id} className="my-6">
