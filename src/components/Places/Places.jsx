@@ -59,7 +59,7 @@ const PlacesData = [
 ]
 
 
-const Places = () => {
+const Places = ({ handleOrderPopup }) => {
   return (
     <div className=" bg-gray-50 py-10">
         <div className="container">
@@ -70,7 +70,7 @@ const Places = () => {
             <div  className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
               {PlacesData.map((item, index) => (
                 <PlaceCard
-                  // handleOrderPopup={handleOrderPopup}
+                   handleOrderPopup={handleOrderPopup}
                   key={index}
                   {...item}
                 />

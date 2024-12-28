@@ -11,7 +11,9 @@ const PlacesCard = ({
   handleOrderPopup,
 }) => {
   return (
-    <div className='shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-white dark:text-slate-950 cursor-pointer'>
+    <div className='shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-white dark:text-slate-950 cursor-pointer' 
+    onClick={handleOrderPopup}>
+      
       <div className='overflow-hidden'>
         <img
             src={img}
