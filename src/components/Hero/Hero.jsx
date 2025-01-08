@@ -66,7 +66,7 @@ const Hero = () => {
                     name="destination"
                     id="destination"
                     className="appearance-none w-full bg-gradient-to-r from-primary to-secondary h-2 rounded-full my-2"
-                    min="150"
+                    min="157"
                     max="1000"
                     value={priceValue}
                     step="10"

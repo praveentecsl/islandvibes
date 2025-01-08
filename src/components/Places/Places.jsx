@@ -1,6 +1,6 @@
 import React from 'react'
 import Img1 from '../../assets/places/img-1.jpg'
-import Img2 from '../../assets/places/img-2.jpg'
+import Img2 from '../../assets/places/img-7.jpg'
 import Img3 from '../../assets/places/img-3.jpg'
 import Img4 from '../../assets/places/img-4.jpg'
 import Img5 from '../../assets/places/img-5.jpg'
@@ -10,51 +10,51 @@ import PlaceCard from './PlacesCard'
 const PlacesData = [
   {
     img: Img1,
-    title: "Boat",
-    location: "USA",
-    description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "Maldives",
+    location: "Maldives",
+    description: "Maldives is one of the most Instagrammable places on earth.",
     price: 6700,
-    type: "Cultural Relax",
+    type: "Relaxation and Tranquility",
   },
   {
     img: Img2,
-    title: "Boat",
-    location: "USA",
-    description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    price: 6700,
+    title: "Koh Samui ",
+    location: "Thailand",
+    description: "Thailand’s second-largest island, known for palm-lined beaches and lush jungles. ",
+    price: 9500,
     type: "Cultural Relax",
   },
   {
     img: Img3,
-    title: "Boat",
-    location: "USA",
-    description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    price: 6700,
-    type: "Cultural Relax",
+    title: "Bali",
+    location: "Indonesia",
+    description: "This Indonesian island also has delicious food and some of the friendliest locals.",
+    price: 5000,
+    type: "Sandy Beaches",
   },
   {
     img: Img4,
-    title: "Boat",
-    location: "USA",
-    description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    price: 6700,
-    type: "Cultural Relax",
+    title: "Galapagos Islands",
+    location: "South America",
+    description: "The islands also feature exciting hikes up rocky cliffs and the second-largest crater on earth. ",
+    price: 8500,
+    type: "adventurers and wildlife",
   },
   {
     img: Img5,
-    title: "Boat",
+    title: "Hawaii",
     location: "USA",
-    description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    price: 6700,
-    type: "Cultural Relax",
+    description: "Lanai is the most remote of the islands, and the unspoiled scenery will make you feel totally at peace.",
+    price: 4500,
+    type: "untouched by civilization",
   },
   {
     img: Img6,
-    title: "Boat",
-    location: "USA",
-    description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    price: 6700,
-    type: "Cultural Relax",
+    title: "Santorini",
+    location: "Greek ",
+    description: "A Greek island surrounded by the stunning aquamarine waters of the Aegean Sea.",
+    price: 7000,
+    type: "Beautiful Scenery",
   },
 ]
 
@@ -64,7 +64,7 @@ const Places = ({ handleOrderPopup }) => {
     <div className=" bg-gray-50 py-10">
         <div className="container">
             <h1 className=" my-8 border-l-8 border-primary/50 py-2 pl-2 text-3xl font-bold">
-                Best Places in the World
+                Best Islands in the World
             </h1>
             
             <div  className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
