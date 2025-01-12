@@ -4,6 +4,7 @@ import Hero from '../components/Hero/Hero'
 import Places from '../components/Places/Places'
 import BannerImg from '../components/BannerImg/BannerImg'
 import PictureBanner from '../assets/HERO-SHOT.jpg'
+import PictureBanner2 from '../assets/ss.jpg'
 import Blogs from './Blogs'
 import Banner from '../components/Banner/Banner'
 import Testimonial from '../components/Testimonial/Testimonial'
@@ -37,7 +38,7 @@ const Home = () => {
         <BannerImg img={PictureBanner}/>
         <Blogs />
         <Banner />
-        <BannerImg img={PictureBanner} />
+        <BannerImg img={PictureBanner2} />
         <Testimonial />
         <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
       </div>

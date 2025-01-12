@@ -7,15 +7,15 @@ import ResponsiveMenu from './ResponsiveMenu'
 
 const dropdownLinks =[
   {
-    name:"praveen",
+    name:"Our services",
     link: "/#services",
   },
   {
-    name:"pffraveen",
+    name:"Top Brands",
     link: "/#mobile_brands",
   },
   {
-    name:"prdffaveen",
+    name:"Location",
     link: "/#location",
   }
 
@@ -83,18 +83,17 @@ const Navbar = ({ handleOrderPopup }) => {
                     </span>
                   </div>
                   <div className='absolute -left-9 z-[9999] hidden group-hover:block shadow-md text-black w-[150px] bg-white p-2'>
-                    <ul>
-                      {
-                        dropdownLinks.map((data) => {
-                          return(
-                            <li key={data.name}>
-                            <a className='inline-block w-full rounded-md p-2 hover:bg-primary/20' href={data.Link}></a>
-                          </li>
-
-                          )
-                          
-                        })
-                      }
+                  <ul className="space-y-3">
+                      {dropdownLinks.map((data) => (
+                        <li key={data.name}>
+                          <a
+                            className="inline-block w-full rounded-md p-2 hover:bg-primary/20"
+                            href={data.link}
+                          >
+                            {data.name}
+                          </a>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </li>

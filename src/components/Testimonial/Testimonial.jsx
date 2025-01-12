@@ -71,11 +71,17 @@ const Testimonial = () => {
               Testimonial
             </p>
             <h1 className="text-3xl font-bold">Testimonial</h1>
-            <p className="text-xs text-gray-400">
+            <p className="text-jsutify-xs text-black-400" >
               {" "}
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero
-              nesciunt explicabo a! Laborum delectus aliquam labore, earum rerum
-              quam! Nulla?
+              "Working with your site was an absolute pleasure. 
+              Their expertise in React, Vite, and modern development practices 
+              resulted in a lightning-fast, responsive website that exceeded our 
+              expectations. They took our vision and brought it to life with clean, 
+              maintainable code and seamless functionality. From start to finish, 
+              their professionalism, creativity, and attention to detail stood out. 
+              If you're looking for a web developer who delivers quality and efficiency, look no further!"
+
+
             </p>
           </div>
           {/* testimonial section */}
@@ -84,26 +90,7 @@ const Testimonial = () => {
             data-aos-duration="300"
             className="grid grid-cols-1 max-w-[800px] mx-auto gap-6"
           >
-              <Slider {...settings}>
-              {testimonialData.map(({ id, name, text, img }) => {
-                return (
-                  <div key={id} className="my-6">
-                    <div className="flex flex-col justify-center items-center gap-4 text-center shadow-lg p-4 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative">
-                      <img
-                        src={img}
-                        alt=""
-                        className="rounded-full block mx-auto"
-                      />
-                      <h1 className="text-xl font-bold">{name}</h1>
-                      <p className="text-gray-500 text-sm">{text}</p>
-                      <p className="text-black/20 text-9xl font-serif absolute top-0 right-0">
-                        ,,
-                      </p>
-                    </div>
-                  </div>
-                );
-              })}
-            </Slider>
+           
           </div>
         </div>
       </div>
