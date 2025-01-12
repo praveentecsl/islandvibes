@@ -33,7 +33,7 @@ const Navbar = ({ handleOrderPopup }) => {
         <div className='bg-gradient-to-r from-primary to-secondary text-white'>
           <div className="container py-[2px] sm:block hidden">
             <div className="flex justify-between  ">
-              <p>20% off on next booking</p>
+              <p>!!! Hurry UP !!! </p><p>20% off on next booking</p>
               <p>Mobile No. +94 2332523542399  </p>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Navbar = ({ handleOrderPopup }) => {
             
             <div>
               <Link to="/" onClick={() => window.scrollTo(0,0)}>
-                <img src={LogoImg} alt="" className='h-16'/>
+                <img src={LogoImg} alt="" className='h-16' />
               </Link>
             </div>
             {/* Desktop NavLink Section */}

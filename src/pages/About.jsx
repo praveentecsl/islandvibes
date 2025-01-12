@@ -10,24 +10,17 @@ const About = () => {
             About us
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            ducimus cupiditate quo harum officia perspiciatis hic ut sunt
-            repudiandae, laboriosam expedita nostrum tempora, consectetur
-            itaque, voluptate error aperiam corrupti ullam aspernatur a!
-            Dolorem, reprehenderit amet quidem deleniti iure rem vel a enim
-            ipsam hic numquam consequatur eius id eaque accusamus repudiandae
-            impedit, quisquam non, harum inventore ratione? Tempora voluptatum
-            ut eligendi corrupti esse, repellat nesciunt illum facilis officiis?
-            Nisi quidem officiis asperiores nostrum ipsa maiores explicabo quia!
-            Corporis provident asperiores fuga eligendi rem temporibus possimus
-            autem excepturi! Facilis sunt corrupti nesciunt asperiores, ab
-            consectetur doloremque, velit a mollitia possimus quaerat!
+            Welcome to [ISLAND VIBES], your gateway to unforgettable travel experiences!
+            At [ISLAND VIBES], we specialize in curating personalized and seamless travel solutions to help you explore the world with ease. Whether you're seeking an adventurous getaway, a serene escape, or a cultural deep dive, we’re here to make it happen.
+            Our mission is to connect travelers with extraordinary destinations, creating memorable journeys that inspire and rejuvenate. With a dedicated team of travel experts, we provide top-notch services, from itinerary planning and local recommendations to hassle-free bookings and on-ground support.
+            We believe that travel is not just about visiting new places—it’s about creating stories, building connections, and discovering the beauty of the world. Join us in turning your travel dreams into reality.
+            Start your adventure with us today, and let’s make every moment count!
+            Your next great experience begins here.
+
           </p>
           <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
-            suscipit minus similique aliquam recusandae quisquam id nulla
-            tempora voluptate vero.
+            Discover the world with [ISLAND VIBES]. We specialize in personalized travel planning, ensuring every trip is smooth, memorable, and inspiring. Let’s make your travel dreams a reality!
           </p>
         </div>
       </div>

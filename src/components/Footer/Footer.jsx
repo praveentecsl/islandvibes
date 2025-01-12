@@ -42,7 +42,7 @@ const Footer = () => {
           <source src={NatureVid} type="video/mp4" />
         </video>
         <div className="container">
-          <div className="grid md:grid-cols-3 py-5 bg-white/60 backdrop-blur-sm rounded-t-xl">
+          <div className="grid md:grid-cols-3 py-5 bg-white/80 backdrop-blur-sm rounded-t-xl">
             <div className="py-8 px-4">
               <h1 className="flex items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left">
                 <img src={FooterLogo} alt="" className="max-h-[60px]" />
@@ -85,7 +85,7 @@ const Footer = () => {
                   </h1>
                   <ul className="flex flex-col gap-3">
                     {FooterLinks.map((link) => (
-                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-red-400">
+                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-green-900">
                         <Link
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}

@@ -66,12 +66,12 @@ const Testimonial = () => {
       <div data-aos="fade-up" data-aos-duration="300" className="py-10">
         <div className="container">
           {/* Header section */}
-          <div className="text-center mb-20 max-w-[400px] mx-auto">
+          <div className="text-center mb-20 max-w-[1000px] mx-auto">
             <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
               Testimonial
             </p>
             <h1 className="text-3xl font-bold">Testimonial</h1>
-            <p className="text-jsutify-xs text-black-400" >
+            <p className="text-justify text-black-400" >
               {" "}
               "Working with your site was an absolute pleasure. 
               Their expertise in React, Vite, and modern development practices 
