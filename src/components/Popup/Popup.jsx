@@ -78,11 +78,11 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
   return (
     <>
       {orderPopup && (
-        <div className="h-screen w-screen fixed top-0 left-0 bg-black/50 z-50 backdrop-blur-sm">
-          <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-4 shadow-md bg-gray-900 dark:bg-white rounded-md duration-200 w-[900px] max-h-[80vh] overflow-hidden">
+        <div className="h-screen w-screen fixed top-9 left-0 bg-black/50 z-50 backdrop-blur-sm">
+          <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-4 shadow-md bg-gray-900 dark:bg-blue-300 rounded-md duration-200 w-[900px] max-h-[80vh] overflow-hidden">
             {/* Header */}
             <div className="flex items-center justify-between">
-              <h1>{isEditing ? 'Edit your Booking' : 'Book your Trip'}</h1>
+              <h1 className='text-2xl font-black'>{isEditing ? 'Edit your Booking' : 'Book your Trip'}</h1>
               <IoCloseOutline
                 className="text-2xl cursor-pointer"
                 onClick={() => setOrderPopup(false)}
@@ -144,12 +144,12 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
               {/* Display Bookings only after clicking Check the Booking */}
               {bookings.length > 0 && (
                 <div className="mt-6 max-h-[400px] overflow-y-auto">
-                  <h3 className="text-white mb-4">All Bookings</h3>
+                  <h3 className="text-black mb-4 text-2xl font-semibold">All Bookings</h3>
                   <div className="flex flex-wrap gap-4">
                     {bookings.map((booking) => (
                       <div
                         key={booking.id}
-                        className="bg-gray-800 text-white p-4 rounded-md w-full flex items-center justify-between"
+                        className="bg-gray-600 text-white p-4 rounded-md w-full flex items-center justify-between"
                       >
                         <div className="flex gap-4 w-full">
                           <div><strong>Name:</strong> {booking.name}</div>
@@ -158,13 +158,13 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
                         </div>
                         <div className="flex gap-2 ml-4">
                           <button
-                            className="bg-blue-500 text-white py-1 px-4 rounded-full"
+                            className="bg-blue-700 text-white py-1 px-4 rounded-full"
                             onClick={() => handleEditBooking(booking.id)}
                           >
                             Edit
                           </button>
                           <button
-                            className="bg-red-500 text-white py-1 px-4 rounded-full"
+                            className="bg-red-700 text-white py-1 px-4 rounded-full"
                             onClick={() => handleDeleteBooking(booking.id)}
                           >
                             Delete

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import LogoImg from '../../assets/OIP.jpeg'
+import LogoImg from '../../assets/eeer.png'
 import { FaCaretDown } from 'react-icons/fa'
 import { HiMenuAlt1, HiMenuAlt3 } from 'react-icons/hi'
 import ResponsiveMenu from './ResponsiveMenu'
@@ -49,7 +49,7 @@ const Navbar = ({ handleOrderPopup }) => {
             </div>
             {/* Desktop NavLink Section */}
             <div className='hidden md:block'>
-              <ul className='flex items-center gap-6'>
+              <ul className='flex items-center gap-6 font-medium text-pretty text-red-700'>
                 <li className='py-4'> 
                   <NavLink to="/" activeClassName='active' onClick={() => window.scrollTo(0,0)}>
                     Home

@@ -77,12 +77,18 @@ const Testimonial = () => {
               Their expertise in React, Vite, and modern development practices 
               resulted in a lightning-fast, responsive website that exceeded our 
               expectations. They took our vision and brought it to life with clean, 
-              maintainable code and seamless functionality. From start to finish, 
-              their professionalism, creativity, and attention to detail stood out. 
-              If you're looking for a web developer who delivers quality and efficiency, look no further!"
-
-
+              maintainable code and seamless functionality !</p>
+            <p className="text-pretty font-bold ">.....praveen"
             </p>
+            <p className="text-justify text-black-400" >
+              {" "}
+              "From start to finish, their professionalism, creativity, and attention to detail stood out. 
+              If you're looking for a web developer who delivers quality and efficiency, look no further. They took our vision and brought it to life with clean, 
+              maintainable code and seamless functionality !</p>
+
+            <p className="text-balance font-bold ">.....chandeepa"
+            </p>
+
           </div>
           {/* testimonial section */}
           <div

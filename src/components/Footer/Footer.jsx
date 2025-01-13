@@ -1,5 +1,5 @@
 import React from 'react'
-import FooterLogo from "../../assets/OIP.jpeg";
+import FooterLogo from "../../assets/eeer.png";
 import {
   FaFacebook,
   FaInstagram,
@@ -49,14 +49,16 @@ const Footer = () => {
                 {/* TravelloGo */}
               </h1>
               <p className="text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                facere ab hic accusamus omnis dolor voluptatibus illo, tempore
-                eum tenetur.
+              Our mission of helping you make the best decisions is
+               our north star, guiding us to always serve your interests. 
+               It drives everything we do. And although we are a nearly 
+               90-year-old company, we’ve been a leader in digital journalism 
+               for more than a decade. 
               </p>
               <br />
               <div className="flex items-center gap-3 ">
                 <FaLocationArrow />
-                <p>Noida, Uttar Pradesh</p>
+                <p>Gampaha,Western Province</p>
               </div>
               <div className="flex items-center gap-3 mt-3">
                 <FaMobileAlt />
@@ -80,12 +82,12 @@ const Footer = () => {
             <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
               <div>
                 <div className="py-8 px-4">
-                  <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
+                  <h1 className="text-3xl font-bold text-justify sm:text-left mb-3 text-green-900">
                     Important Links
                   </h1>
                   <ul className="flex flex-col gap-3">
                     {FooterLinks.map((link) => (
-                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-green-900">
+                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-green-900 text-xl">
                         <Link
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
@@ -100,12 +102,12 @@ const Footer = () => {
               </div>
               <div>
                 <div className="py-8 px-4">
-                  <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
+                  <h1 className="text-3xl font-bold text-justify sm:text-left mb-3 text-red-900">
                     Important Links
                   </h1>
                   <ul className="flex flex-col gap-3">
                     {FooterLinks.map((link) => (
-                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-pink-700">
+                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-pink-700 text-xl">
                         <Link
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
@@ -120,12 +122,12 @@ const Footer = () => {
               </div>
               <div>
                 <div className="py-8 px-4">
-                  <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
+                  <h1 className="text-3xl font-bold text-justify sm:text-left mb-3 text-fuchsia-900">
                     Important Links
                   </h1>
                   <ul className="flex flex-col gap-3">
                     {FooterLinks.map((link) => (
-                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-green-700">
+                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-purple-700 dark:text-purple-700 text-xl">
                         <Link
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}

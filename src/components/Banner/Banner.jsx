@@ -1,5 +1,5 @@
 import React from 'react'
-import ImgTrvl from '../../assets/tavel.jpg'
+import ImgTrvl from '../../assets/rrrt.jpg'
 import { MdFlight, MdOutlineLocalHotel } from "react-icons/md";
 import { IoIosWifi } from "react-icons/io";
 import { IoFastFoodSharp } from "react-icons/io5";
@@ -23,17 +23,19 @@ const Banner = () => {
           <div className="flex flex-col justify-center gap-6 sm:pt-0 lg:px-16">
             <h1
               data-aos="fade-up"
-              className="text-3xl sm:text-4xl font-bold"
+              className="text-3xl sm:text-4xl font-bold text-red-900"
             >
-              Explore all corners of The world with us
+              Explore the Islands and Enjoy with us
             </h1>
             <p
               data-aos="fade-up"
-              className="text-sm text-gray-500 tracking-wide leading-8"
+              className="text-justify text-gray-900 tracking-widest leading-8 font-semibold"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Eaque reiciendis inventore iste ratione ex alias quis magni at
-              optio ratione ex alias quis magni at optio
+              Those looking for a tranquil environment with seemingly unlimited 
+              luxury may opt for a stay at an adults-only all-inclusive resort. 
+              Meals, drinks, amenities and select activities will be included in 
+              the price of your stay, so you can relax and make memories without 
+              worrying about your wallet.
               <br />
             </p>
             <div data-aos="zoom-in" className="grid grid-cols-2 gap-6">
